@@ -3,35 +3,70 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    margin: 0;
+    font-family: sans-serif;
 }
 
+/* style header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 470px;
+    
+}
+
+.headerLogo {
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
 }
 
 .links-header {
     display: flex;
     list-style-type: none;
-    gap: 8px;
+    gap: 15px;
 }
 
 a {
     text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    
 }
+
+/* style first section */
 
 .section1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 25px;
+    background-color: #1F2937;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 .textSec1 {
-    width: 400px;
+    width: 500px;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0%;
 }
 
 #imgSec1 {
-    width: 400px;
-    height: auto;
+    width: 500px;
+    height: 250px;
+}
+
+.topButton {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
 }
