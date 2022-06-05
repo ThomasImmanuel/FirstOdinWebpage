@@ -30,32 +30,33 @@ header {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
     font-size: 16px;
     font-weight: 100;
     
 }
 
-/* style first section */
+/* style section 1*/
 
 .section1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 120px;
     background-color: #1F2937;
     padding-bottom: 70px;
     padding-top: 70px;
 }
 
 .textSec1 {
-    width: 500px;
-    color: white;
+    width: 400px;
+    color: #e5e7eb;;
 }
 
 h1 {
     font-size: 48px;
     margin: 0%;
+    color: #f9faf8;
 }
 
 #imgSec1 {
@@ -67,11 +68,12 @@ h1 {
     background-color: #3882F6;
     color: white;
     border: none;
-    padding: 7px 25px;
+    padding: 7px 35px;
     border-radius: 5px;
+    font-weight: 600;
 }
 
-/* Style section two */
+/* Style section 2 */
 
 h2 {
     text-align: center;
@@ -141,5 +143,53 @@ h2 {
 
 }
 
+/* Styling section 4 */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.contentSec4 {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    gap: 70px;
+    width: 1000px;
+    height: 109px;
+    border-radius: 10px;
+}
+
+.textSec4 {
+    padding: 20px;
+}
+
+.boldText {
+    font-weight: 700;
+    color: White;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.smallText {
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+
+.bottomButton {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 2px;
+    padding: 7px 35px;
+    border-radius: 5px;
+    height: 40px;
+    align-self: center;
+    font-weight: 600;
+}
 
 
