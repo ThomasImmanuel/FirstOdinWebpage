@@ -106,3 +106,40 @@ h2 {
     text-align: center;
 }
 
+/* Style section 3 */
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.textSec3 {
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 0;
+    color: #1F2937;
+}
+
+.quoteSource {
+    align-self: flex-end;
+    justify-self: end;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+
+
