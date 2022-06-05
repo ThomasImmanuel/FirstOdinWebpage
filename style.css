@@ -80,6 +80,7 @@ h2 {
     padding: 50px;
     margin: 0;
     font-size: 35px;
+    color: #1F2937;
 }
 
 .sec2flex {
@@ -92,6 +93,7 @@ h2 {
 
 .imgText {
     width: 175px;
+    color: #1F2937;
 }
 
 .section2 img {
@@ -192,4 +194,17 @@ h2 {
     font-weight: 600;
 }
 
+/* Styling the footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+footer p {
+    margin: 30px;
+}
 
